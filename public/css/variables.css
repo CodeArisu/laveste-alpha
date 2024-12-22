@@ -1,0 +1,31 @@
+/* 
+    notes: units
+    *cm (centimeters) => 1cm = 37.8px = 25.2/64 in
+    *mm (millimeter) => 1mm = 1/10th of 1cm
+    *in (inches) => 1in = 2.25cm = 96px
+
+    *default text unit: 
+    rem => 1rem = 16px
+    em => 1em = 16px
+*/
+
+:root {
+
+    /* Colors */
+    --clr-primary: hsl(47, 77%, 83%);
+
+    /* text Colors */
+    --txt-clr: hsl(0, 51%, 39%);
+
+    /* text Size */
+    --txt-xsm: 1.25rem;
+    --txt-sm: 2rem;
+    --txt-md: calc(var(--txt-sm) * 1.25);
+    --txt-lg: calc(var(--txt-sm) * 1.75);
+    --txt-xl: calc(var(--txt-md) * 2);
+
+    /* text Fonts */
+    --font-primary: "Playfair Display", serif;
+    --font-secondary: "Poppins", serif;
+
+}
