@@ -1,7 +1,7 @@
 /* nav base */
 .def_navbar {
     color: var(--txt-clr);
-    font-size: var(--txt-xsm);
+    font-size: clamp(var(--txt-xsm), 1.75vw, var(--txt-md));
 }
 
 /* nav inside content */
@@ -12,6 +12,13 @@
     justify-content: space-between;
 }
 
+.menu_toggle {
+    display: none; /* Hidden by default */
+    background: none;
+    border: none;
+    color: var(--txt-clr);
+    cursor: pointer;
+}
 .nav_list {
     list-style-type: none;
     padding: 0;

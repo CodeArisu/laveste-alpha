@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ asset('/css/variables.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('/css/index.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('/css/navbar.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/css/media.css') }}" type="text/css">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
