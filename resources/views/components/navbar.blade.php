@@ -2,12 +2,12 @@
     <div class="nav_content">
 
         <ul class='nav_list'>
-           <li class="nav_item"><a href="">Home</a></li>
-           <li class="nav_item"><a href="">Products</a></li>
-           <li class="nav_item"><a href="">Appointment</a></li>
-           <li class="nav_item"><a href="">How it Works</a></li>
-           <li class="nav_item"><a href="">About Us</a></li>
-           <li class="nav_item"><a href="">Contacts</a></li>
+           <li class="nav_item hover_effect"><a href="">Home</a></li>
+           <li class="nav_item hover_effect"><a href="">Products</a></li>
+           <li class="nav_item hover_effect"><a href="">Appointment</a></li>
+           <li class="nav_item hover_effect"><a href="">How it Works</a></li>
+           <li class="nav_item hover_effect"><a href="">About Us</a></li>
+           <li class="nav_item hover_effect"><a href="">Contacts</a></li>
         </ul>
 
         <ul class="icon_list">

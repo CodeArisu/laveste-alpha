@@ -1,9 +1,10 @@
-
+/* nav base */
 .def_navbar {
     color: var(--txt-clr);
     font-size: var(--txt-xsm);
 }
 
+/* nav inside content */
 .nav_content{
     display: flex;
     flex-direction: row;
@@ -28,17 +29,40 @@
     }
 }
 
+/* list items underline hover-effect */
+.hover_effect {
+    display: inline-block;
+    position: relative;
+}
+.hover_effect::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -3px;
+    left: 0;
+    transform: translateX(50%) scaleX(0);
+    background-color: var(--txt-clr);
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+.hover_effect:hover::after{
+    transform: translateX(50%) scaleX(1); 
+    transform-origin: bottom center;
+}
+
+/* right nav icons */
 .icon_list {
     list-style-type: none;
     padding: 0;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
 }
 .icon_item {
     padding-inline: 10px;
+    margin-inline: 5px;
 
     & a{
         text-decoration: none;
@@ -49,5 +73,6 @@
 .icon-link {
     display: inline-flex;
     align-items: center;
+    text-align: center;
     text-decoration: none;
 }
