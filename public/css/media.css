@@ -1,0 +1,32 @@
+@media (max-width: 480px) {
+
+}
+
+@media (max-width: 768px) {
+   .nav_item:nth-child(n) {
+        display: none;
+   }
+}
+
+@media (max-width: 1024px) {
+    .nav_item:nth-child(n+5) {
+        display: none;
+    }
+    .menu_toggle {
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+    }
+    .nav_list.active {
+        display: flex; /* Show the menu when active */
+    }
+}
+
+@media (max-width: 1200px) {
+    /* Styles for large screens */
+}
+
+@media (max-width: 1440px) {
+    /* Styles for extra large screens */
+}
