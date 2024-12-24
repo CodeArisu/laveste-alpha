@@ -1,8 +1,11 @@
 /* default component styles */
-body {
+* {
+    box-sizing: border-box;
+}
+html, body {
     font-family: var(--font-secondary);
     background-color: var(--clr-primary);
-    color: var(--txt-clr);
+    color: var(--txt-clr-secondary);
 }
 div{
     padding: 10px;
@@ -24,6 +27,7 @@ div{
     font-size: var(--txt-xl);
 }
 
+/* unnecessary */
 .text-1 {
     font-family: var(--font-primary);
     font-style: normal;

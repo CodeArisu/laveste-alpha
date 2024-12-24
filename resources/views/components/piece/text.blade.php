@@ -12,3 +12,7 @@
     <h4 class='text-sm'>Lorem ipsum dolor sit amet.</h4>
     <h5 class='text-xsm'>Lorem ipsum dolor sit amet.</h5>    
 </div>
+
+<div>
+    <x-button-component btnType='primary' btnTitle='Primary Button'/>
+</div>
