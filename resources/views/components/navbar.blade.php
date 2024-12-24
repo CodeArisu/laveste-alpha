@@ -13,6 +13,8 @@
            <li class="nav_item hover_effect"><a href="">Contacts</a></li>
         </ul>
 
+        <h1 class='trademark'>La Veste</h1>
+
         <ul class="icon_list">
             <li class="icon_item"><a class='icon-link' href=""><i class="fa-solid fa-magnifying-glass fa-lg"></i></a></li>
             <li class="icon_item"><a class='icon-link' href=""><i class="fa-regular fa-heart fa-lg"></i></a></li>

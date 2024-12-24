@@ -3,12 +3,22 @@
 }
 
 @media (max-width: 768px) {
+
+    /* nav bar */
    .nav_item:nth-child(n) {
         display: none;
    }
+   .trademark {
+    display: block; /* Show trademark */
+    flex: 1;
+    text-align: start;
+}
+
 }
 
 @media (max-width: 1024px) {
+
+    /* navbar */
     .nav_item:nth-child(n+5) {
         display: none;
     }
@@ -19,7 +29,18 @@
         text-decoration: none;
     }
     .nav_list.active {
-        display: flex; /* Show the menu when active */
+        display: flex;
+    }
+    .trademark {
+        display: block; /* Show trademark */
+        flex: 1;
+        text-align: center;
+    }
+
+
+    /* hero */
+    .hero_container {
+        background-size: contain;
     }
 }
 
