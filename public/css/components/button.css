@@ -3,8 +3,8 @@
     padding: var(--space-sm);
 
     border: 2px solid var(--clr-primary);
-    border-radius: 40px;
-    min-width: 10em;
+    border-radius: var(--rad-xl);
+    width: 100%; /* default width */
 
     font-family: var(--font-primary);
     font-size: var(--txt-sm);
@@ -17,5 +17,16 @@
 }
 
 .btn-secondary {
-    background-color: blue;
+    background-color: transparent;
+
+    border: 2px solid var(--clr-secondary);
+    border-radius: var(--rad-xl);
+    width: 100%; /* default width */
+    
+    font-family: var(--font-primary);
+    font-size: var(--txt-sm);
+    color: var(--clr-secondary);
+    font-weight: 600;
+
+    cursor: pointer;
 }

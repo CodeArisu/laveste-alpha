@@ -13,6 +13,7 @@
 
     /* Colors */
     --clr-primary: hsl(47, 77%, 83%);
+    --clr-secondary: hsl(0, 51%, 39%);
 
     /* text Colors */
     --txt-clr-primary: hsl(47, 77%, 83%);
@@ -35,6 +36,12 @@
     --space-md: 1rem;
     --space-lg: 1.5rem;
     --space-xl: 2rem;
+
+    /* radius */
+    --rad-sm: 10em;
+    --rad-md: 20em;
+    --rad-lg: 30em;
+    --rad-xl: 40em;
 
     /* text space */
     --letter-spacing-sm: 0.5px;

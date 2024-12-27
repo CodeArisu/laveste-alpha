@@ -1,0 +1,5 @@
+.header_style {
+    color: var(--clr-secondary);
+    font-family: var(--font-primary);
+    font-size: var(--txt-md);
+}

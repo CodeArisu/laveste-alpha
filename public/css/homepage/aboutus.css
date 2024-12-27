@@ -1,0 +1,33 @@
+.about_us_container {
+    padding: 0;
+
+    height: 45em;
+}
+.about_us_content {
+    position: relative;
+
+    height: inherit;
+    padding: 0;
+}
+.about_us_content img {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 80em;
+    height: 45em;
+    border-radius: 5em;
+}
+.about_us_content .text_content {
+    position: absolute;
+    background-color: var(--clr-primary);
+    box-shadow: -10px -10px 1px var(--clr-secondary);
+    top: 50%;
+    left: 25%;
+    padding: 30px;
+    border-radius: 5em;
+
+    transform: translate(-50%, -50%);
+
+    max-width: 35em;
+}
