@@ -6,6 +6,8 @@ html, body {
     font-family: var(--font-secondary);
     background-color: var(--clr-primary);
     color: var(--txt-clr-secondary);
+
+    margin: 0;
 }
 body::-webkit-scrollbar {
     width: 10px;

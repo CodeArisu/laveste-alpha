@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{ asset('/css/variables.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('/css/index.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('/css/navbar.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('/css/footer.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('/css/media.css') }}" type="text/css">
 
     @stack('styles')
@@ -32,6 +33,10 @@
             {{ $slot }}
         @endisset
     </main>
+
+    <footer>
+        @include('components.footer')
+    </footer>
     
 </body>
 </html>

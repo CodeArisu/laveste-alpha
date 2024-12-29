@@ -8,7 +8,6 @@
     rem => 1rem = 16px
     em => 1em = 16px
 */
-
 :root {
 
     /* Colors */
@@ -18,7 +17,6 @@
     /* text Colors */
     --txt-clr-primary: hsl(47, 77%, 83%);
     --txt-clr-secondary: hsl(0, 51%, 39%);
-
 
     /* text Size */
     --txt-xsm: 1.25rem;
@@ -55,5 +53,4 @@
     --screen-md: 1024px;
     --screen-lg: 1200px;
     --screen-xl: 1440px;
-    
 }
