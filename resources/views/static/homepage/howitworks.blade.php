@@ -3,7 +3,7 @@
 @endpush
 
 <div class='howitworks'>
-    <x-header-component text='How It Works'/>
+    <x-header-component text='How It Works' textColor='secondary'/>
     
     <div class="list_container">
         <div class="icon_content">
@@ -25,8 +25,23 @@
         <div class='text_content'>
             <ul>
                 <li>Sign up with your email to browse our collection and book rentals or appointments.</li>
-                <li>For Rentals: Browse our collection and choose the item you’d like to rent.For Appointments: Read the details on the appointment page and view the available dates and times for your personalized fitting and consultation.</li>
-                <li>For Rentals: Select the date you need the item, making sure to account for delivery time or when you'd like to pick it up. For Appointments: Select a date and time for your personalized fitting and provide additional details.</li>
+                <li>
+                    <p>
+                        <span>For Rentals:</span>  Browse our collection and choose the item you’d like to rent.
+                    </p>
+                    <p>
+                        <span>For Appointments:</span> Read the details on the appointment page and view the available dates and times for your personalized fitting and consultation.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <span>For Rentals:</span>
+                        Select the date you need the item, making sure to account for delivery time or when you'd like to pick it up.
+                    </p>
+                    <p>
+                        <span> For Appointments:</span> Select a date and time for your personalized fitting and provide additional details.
+                    </p>
+                </li>
                 <li>Finalize your order or appointment details, and choose between two options for rentals:
                     Door-to-door delivery
                     Pick-up from our shop

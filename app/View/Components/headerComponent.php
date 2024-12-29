@@ -9,9 +9,24 @@ use Illuminate\View\Component;
 class headerComponent extends Component
 {
     public $text;
-    public function __construct($text)
+    public String $textColor;
+
+    public function textColor($color) : String
+    {
+        switch($color) {
+            case 'secondary':
+               return 'text-secondary';
+                break;
+            default:
+               return 'text-primary';
+               break;
+        }
+    }
+
+    public function __construct($text, $textColor)
     {
         $this->text = $text;
+        $this->textColor = 'text-secondary';
     }
 
     /**

@@ -1,5 +1,13 @@
 .header_style {
-    color: var(--clr-secondary);
     font-family: var(--font-primary);
     font-size: var(--txt-md);
+    margin: 0;
+    margin-bottom: 1em;
 }
+
+.text-primary {
+    color: var(--txt-clr-primary);
+}
+.text-secondary {
+    color: var(--txt-clr-secondary);
+}  

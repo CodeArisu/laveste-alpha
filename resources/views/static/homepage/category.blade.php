@@ -3,7 +3,7 @@
 @endpush
 
 <div class='category'>
-    <x-header-component text='Fashion Category'/>
+    <x-header-component text='Fashion Category' textColor='secondary'/>
 
     <div class='category_content'>
             <x-category-card text='Gown' url='#' image='https://i.pinimg.com/1200x/c6/bf/de/c6bfdea66dc01d88956f8611ac925b3d.jpg'/>

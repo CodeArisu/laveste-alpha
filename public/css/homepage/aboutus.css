@@ -2,6 +2,7 @@
     padding: 0;
 
     height: 45em;
+    color: var(--clr-primary);
 }
 .about_us_content {
     position: relative;
@@ -20,12 +21,12 @@
 }
 .about_us_content .text_content {
     position: absolute;
-    background-color: var(--clr-primary);
-    box-shadow: -10px -10px 1px var(--clr-secondary);
+    background-color: var(--clr-secondary);
+    /* box-shadow: -10px -10px 1px var(--clr-secondary); */
     top: 50%;
     left: 25%;
     padding: 30px;
-    border-radius: 5em;
+    border-radius: 3em;
 
     transform: translate(-50%, -50%);
 
