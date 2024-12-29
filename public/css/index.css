@@ -1,9 +1,30 @@
 /* default component styles */
-body {
+* {
+    box-sizing: border-box;
+}
+html, body {
     font-family: var(--font-secondary);
     background-color: var(--clr-primary);
-    color: var(--txt-clr);
+    color: var(--txt-clr-secondary);
 }
+body::-webkit-scrollbar {
+    width: 10px;
+    transition: transform 0.2s ease;
+}
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+body::-webkit-scrollbar-thumb {
+    background: var(--clr-secondary);
+    border-radius: 100vw;
+}
+body::-webkit-scrollbar:hover {
+    transform: scale(1.5);
+}
+body::-webkit-scrollbar:active {
+    transform: scale(1.5);
+}
+
 div{
     padding: 10px;
 }
@@ -24,17 +45,22 @@ div{
     font-size: var(--txt-xl);
 }
 
-.text-1 {
-    font-family: var(--font-primary);
-    font-style: normal;
-    & header{
-        padding: 10px;
-    }
+.txt-clr-primary {
+    color: var(--txt-clr-primary);
 }
-.text-2{
-    font-family: var(--font-secondary);
-    font-style: normal;
-    & header{
-        padding: 10px;
-    }
+.txt-clr-secondary {
+    color: var(--txt-clr-secondary);
+}  
+
+.btn-xsm {
+    max-width: 7em;
+}
+.btn-sm {
+    max-width: 10em;
+}
+.btn-md {
+    max-width: 15em;
+}
+.btn-lg {
+    max-width: 20em;
 }

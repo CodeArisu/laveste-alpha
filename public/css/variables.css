@@ -13,9 +13,12 @@
 
     /* Colors */
     --clr-primary: hsl(47, 77%, 83%);
+    --clr-secondary: hsl(0, 51%, 39%);
 
     /* text Colors */
-    --txt-clr: hsl(0, 51%, 39%);
+    --txt-clr-primary: hsl(47, 77%, 83%);
+    --txt-clr-secondary: hsl(0, 51%, 39%);
+
 
     /* text Size */
     --txt-xsm: 1.25rem;
@@ -28,4 +31,29 @@
     --font-primary: "Playfair Display", serif;
     --font-secondary: "Poppins", serif;
 
+    /* spacing */
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+    --space-lg: 1.5rem;
+    --space-xl: 2rem;
+
+    /* radius */
+    --rad-sm: 10em;
+    --rad-md: 20em;
+    --rad-lg: 30em;
+    --rad-xl: 40em;
+
+    /* text space */
+    --letter-spacing-sm: 0.5px;
+    --letter-spacing-md: calc(var(--letter-spacing-sm) * 2);
+    --letter-spacing-lg: calc(var(--letter-spacing-md) * 2);
+    --letter-spacing-xl: calc(var(--letter-spacing-lg) * 2);
+
+    /* screen types / media query */
+    --screen-xs: 480px;
+    --screen-sm: 768px;
+    --screen-md: 1024px;
+    --screen-lg: 1200px;
+    --screen-xl: 1440px;
+    
 }

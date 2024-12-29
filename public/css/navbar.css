@@ -1,0 +1,96 @@
+/* nav base container */
+.def_navbar {
+    color: var(--txt-clr-secondary);
+    font-size: clamp(var(--txt-xsm), 1.25vw, var(--txt-md));
+}
+
+/* nav inside content */
+.nav_content{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.menu_toggle {
+    display: none; /* Hidden by default */
+    background: none;
+    border: none;
+    color: var(--txt-clr-secondary);
+    cursor: pointer;
+}
+.nav_list {
+    list-style-type: none;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: flex-start;
+}
+.nav_item {
+    padding-inline: 10px;
+    margin-inline: 5px;
+
+    & a{
+        text-decoration: none;
+        color: var(--txt-clr-secondary);
+    }
+}
+
+/* list items underline hover-effect */
+.hover_effect {
+    display: inline-block;
+    position: relative;
+}
+.hover_effect::after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -3px;
+    left: 0;
+    transform: translateX(50%) scaleX(0);
+    background-color: var(--txt-clr-secondary);
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+.hover_effect:hover::after{
+    transform: translateX(50%) scaleX(1); 
+    transform-origin: bottom center;
+}
+
+/* right nav icons */
+.icon_list {
+    list-style-type: none;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.icon_item {
+    padding-inline: 10px;
+    margin-inline: 5px;
+
+    & a{
+        text-decoration: none;
+        color: var(--txt-clr-secondary);
+    }
+}
+.trademark{
+    display: none;
+    text-align: center;
+    font-size: 24px;
+    font-family: serif; 
+    color: var(--txt-clr-secondary);
+}
+
+
+.icon-link {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}

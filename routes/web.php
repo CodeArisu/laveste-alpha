@@ -3,15 +3,10 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('components.layout');
+    return redirect('/homepage');
 });
 
-<<<<<<< Updated upstream
-Route::get('/components', function() {
-    return view('components.componentview');
-=======
-// only guests
 Route::get('/homepage', function() {
     return view('static.homepage.index');
->>>>>>> Stashed changes
 });
+
