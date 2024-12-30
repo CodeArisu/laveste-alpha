@@ -1,5 +1,5 @@
 @push('styles')
-    <link href='css/components/button.css' rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/components/button.css') }}">
 @endpush
 
 <button {{ $attributes->merge(['class' => $btnType]) }}>

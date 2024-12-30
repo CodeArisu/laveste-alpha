@@ -1,5 +1,5 @@
 @push('styles')
-    <link rel="stylesheet" href="/css/homepage/category.css">
+    <link rel="stylesheet" href="{{ asset('/css/homepage/category.css') }}">
 @endpush
 
 <div class='category'>

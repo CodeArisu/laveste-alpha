@@ -1,5 +1,5 @@
 @push('styles')
-    <link rel="stylesheet" href="/css/homepage/appointment.css">
+    <link rel="stylesheet" href="{{ asset('/css/homepage/appointment.css') }}">
 @endpush
 
 

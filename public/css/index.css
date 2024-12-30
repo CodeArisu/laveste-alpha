@@ -24,38 +24,3 @@ div{
     padding: 10px;
 }
 
-.text-xsm {
-    font-size: var(--txt-xsm);
-}
-.text-sm {
-    font-size: var(--txt-sm);
-}
-.text-md {
-    font-size: var(--txt-md);
-}
-.text-lg {
-    font-size: var(--txt-lg);
-}
-.text-xl {
-    font-size: var(--txt-xl);
-}
-
-.txt-clr-primary {
-    color: var(--txt-clr-primary);
-}
-.txt-clr-secondary {
-    color: var(--txt-clr-secondary);
-}  
-
-.btn-xsm {
-    max-width: 7em;
-}
-.btn-sm {
-    max-width: 10em;
-}
-.btn-md {
-    max-width: 15em;
-}
-.btn-lg {
-    max-width: 20em;
-}

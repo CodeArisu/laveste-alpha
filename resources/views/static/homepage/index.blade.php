@@ -1,5 +1,5 @@
 @push('styles')
-    <link rel="stylesheet" href="/css/homepage/index.css">
+    <link rel="stylesheet" href="{{ asset('/css/homepage/index.css') }}">
 @endpush
 
 <x-layout>
