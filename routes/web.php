@@ -8,5 +8,6 @@ Route::get('/', function () {
 
 Route::get('/homepage', function() {
     return view('static.homepage.index');
-});
+})->name('homepage');
 
+Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.index');

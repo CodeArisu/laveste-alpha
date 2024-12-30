@@ -3,6 +3,10 @@
 @endpush
 
 <x-layout>
+
+    <header>
+        @include('components.navbar')
+    </header>
     
     <section class='hero_section'>
         @include('static.homepage.hero')
@@ -23,5 +27,9 @@
     <section class="aboutus_section">
         @include('static.homepage.aboutus')
     </section>
+
+    <footer>
+        @include('components.footer')
+    </footer>
 
 </x-layout>

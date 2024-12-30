@@ -24,20 +24,12 @@
 
 </head>
 <body>
-
-    <header>
-        @include('components.navbar')
-    </header>
     
     <main class='container'>
         @isset($slot)
             {{ $slot }}
         @endisset
     </main>
-
-    <footer>
-        @include('components.footer')
-    </footer>
     
 </body>
 </html>
