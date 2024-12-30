@@ -11,24 +11,10 @@ class headerComponent extends Component
     public $text;
     public String $textColor;
 
-    public function textColor($color) : String
-    {   
-        $color = strtolower($color);
-
-        switch($color) {
-            case 'secondary':
-               return 'text-secondary';
-                break;
-            default:
-               return 'text-primary';
-               break;
-        }
-    }
-
     public function __construct($text, $textColor)
     {
         $this->text = $text;
-        $this->textColor = $this->textColor($textColor);
+        $this->textColor = $textColor;
     }
 
     /**

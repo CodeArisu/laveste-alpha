@@ -11,20 +11,13 @@ html, body {
 }
 body::-webkit-scrollbar {
     width: 10px;
-    transition: transform 0.2s ease;
 }
 body::-webkit-scrollbar-track {
-    background: transparent;
+    background: wheat;
 }
 body::-webkit-scrollbar-thumb {
     background: var(--clr-secondary);
     border-radius: 100vw;
-}
-body::-webkit-scrollbar:hover {
-    transform: scale(1.5);
-}
-body::-webkit-scrollbar:active {
-    transform: scale(1.5);
 }
 
 div{

@@ -6,7 +6,7 @@
     <div class='about_us_content'>
         <img src="https://s.abcnews.com/images/Lifestyle/GTY_woman_closet_jt_1500414_16x9_992.jpg?w=1600" alt="">
         <div class='text_content'>
-            <x-header-component text='About Us' textColor='secondary' />
+            <x-header-component text='About Us' textColor='primary' />
             <p>
                 At La Veste, we believe in providing more than just clothes—we offer an experience. With a wide range of
                 gowns, tuxedos, and traditional wear, our collection is designed to meet the needs of every event.We
