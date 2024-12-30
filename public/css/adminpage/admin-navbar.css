@@ -1,0 +1,35 @@
+.sidenav_container {
+    position: fixed;
+    padding: 0;
+    background-color: white;
+
+    left: 0;
+    top: 0;
+
+    height: 100%;
+}
+
+.sidenav_container .sidenav_contents{
+    overflow-x: hidden;
+
+    margin-block: 3em;
+}
+
+.sidenav_contents ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 2em;
+}
+.sidenav_contents ul > li{
+    padding: 0;
+}
+.sidenav_contents ul li > i{
+    font-size: 2em;
+    padding: 10px;
+}
