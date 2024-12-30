@@ -24,4 +24,8 @@
         @include('static.homepage.aboutus')
     </section>
 
+    <footer>
+        @include('components.footer')
+    </footer>
+
 </x-layout>

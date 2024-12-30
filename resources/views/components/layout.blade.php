@@ -34,10 +34,6 @@
             {{ $slot }}
         @endisset
     </main>
-
-    <footer>
-        @include('components.footer')
-    </footer>
     
 </body>
 </html>

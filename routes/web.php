@@ -10,3 +10,4 @@ Route::get('/homepage', function() {
     return view('static.homepage.index');
 });
 
+Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.index');
