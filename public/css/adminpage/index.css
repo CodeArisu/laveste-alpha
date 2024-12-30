@@ -1,8 +1,11 @@
 body {
-    padding-inline: 20px;
+    padding-left: 6em;
 }
-
-.card_holder {
+.admin_content {
+    padding: 2em;
+    height: 100vh;
+}
+.admin_content .card_holder {
     padding: 0;
 
     display: grid;      

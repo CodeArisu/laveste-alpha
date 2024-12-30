@@ -3,7 +3,10 @@
 @endpush
 
 <x-layout>
-    <x-header-component text='Dashboard' textColor='secondary' />
+    <x-admin-navbar/>
+
+    <div class='admin_content'>
+        <x-header-component text='Dashboard' textColor='secondary' />
         <div class='card_holder'>
             <x-material.stat-card 
             icon='fa-solid fa-coins' 
@@ -36,4 +39,6 @@
             title='Upcoming Appointments' 
             />
         </div>
+    </div>
+    
 </x-layout>
