@@ -1,40 +1,26 @@
 /* default component styles */
-body {
+* {
+    box-sizing: border-box;
+}
+html, body {
     font-family: var(--font-secondary);
     background-color: var(--clr-primary);
-    color: var(--txt-clr);
+    color: var(--txt-clr-secondary);
+
+    margin: 0;
 }
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-track {
+    background: wheat;
+}
+body::-webkit-scrollbar-thumb {
+    background: var(--clr-secondary);
+    border-radius: 100vw;
+}
+
 div{
     padding: 10px;
 }
 
-.text-xsm {
-    font-size: var(--txt-xsm);
-}
-.text-sm {
-    font-size: var(--txt-sm);
-}
-.text-md {
-    font-size: var(--txt-md);
-}
-.text-lg {
-    font-size: var(--txt-lg);
-}
-.text-xl {
-    font-size: var(--txt-xl);
-}
-
-.text-1 {
-    font-family: var(--font-primary);
-    font-style: normal;
-    & header{
-        padding: 10px;
-    }
-}
-.text-2{
-    font-family: var(--font-secondary);
-    font-style: normal;
-    & header{
-        padding: 10px;
-    }
-}

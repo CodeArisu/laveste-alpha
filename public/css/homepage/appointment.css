@@ -1,0 +1,38 @@
+.appointment_content {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 3em;
+
+    padding-inline: 6em;
+}
+
+.img-content {
+    padding: 0;
+    width: 100%;
+
+    & img{
+        width: inherit;
+        object-fit: fill;
+        object-position: center center;
+        border-radius: 5em;
+    }
+}
+
+.text-content {
+    
+    & h1 {
+        font-family: var(--font-primary);
+        font-size: var(--txt-lg);
+        padding-right: 2em;
+    }
+
+    & p {
+        font-family: var(--font-secondary);
+        font-size: var(--txt-xsm);
+    }
+}

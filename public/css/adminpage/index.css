@@ -1,0 +1,15 @@
+body {
+    padding-left: 6em;
+}
+.admin_content {
+    padding: 2em;
+    height: 100vh;
+}
+.admin_content .card_holder {
+    padding: 0;
+
+    display: grid;      
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: auto;
+    gap: 2em;
+}
