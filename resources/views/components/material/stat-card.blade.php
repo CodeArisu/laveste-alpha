@@ -5,9 +5,9 @@
 <div class='card_container'>
     
     <div class="card_content">
-        <span>{{ $title }}</span>
-        <span>{{ $value }}</span>
         <i class='{{ $icon }}'></i>
+        <span class='title'>{{ $title }}</span>
+        <span class='value'>{{ $value }}</span>
     </div>
 
 </div>

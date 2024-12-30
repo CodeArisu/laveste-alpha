@@ -1,8 +1,42 @@
 .card_container {
     position: relative;
     min-width: 5em;
-    min-height: 3em;
+    min-height: 8em;
 
     background-color: white;
     border-radius: 1em;
+
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+.card_container .card_content {
+    padding: 0;
+    padding-inline: 10px;
+
+    height: 100%;
+    
+    display: flex;
+    flex: auto;
+    align-items: center;
+}
+.card_container .card_content i {
+    font-size: 5em;
+    padding-inline: 10px;
+    align-content: center;
+    align-self: stretch;
+}
+
+.title, .value {
+    font-size: 1.8em;
+    padding-inline: 10px;
+    font-weight: bold;
+    align-content: center;
+}
+.card_container .card_content .title {
+    text-align: start;
+    width: 100%;
+
+}
+.card_container .card_content .value {
+    text-align: end;
+    width: 100%;
 }

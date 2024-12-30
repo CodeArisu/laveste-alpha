@@ -24,10 +24,6 @@
 
 </head>
 <body>
-
-    <header>
-        @include('components.navbar')
-    </header>
     
     <main class='container'>
         @isset($slot)
