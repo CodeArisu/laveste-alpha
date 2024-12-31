@@ -34,6 +34,10 @@
     }
 
     & .product_list {
-        height: 50em;
+        padding-inline: 10em;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 }
