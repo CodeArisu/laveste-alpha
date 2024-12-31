@@ -5,8 +5,8 @@
             <button class="menu_toggle" aria-label="Toggle navigation">
                 <i class="fa-solid fa-bars fa-2xl"></i>
             </button>
-           <li class="nav_item hover_effect"><a href="">Home</a></li>
-           <li class="nav_item hover_effect"><a href="">Products</a></li>
+           <li class="nav_item hover_effect"><a href="{{  route('homepage') }}">Home</a></li>
+           <li class="nav_item hover_effect"><a href="{{  route('products.index') }}">Products</a></li>
            <li class="nav_item hover_effect"><a href="">Appointment</a></li>
            <li class="nav_item hover_effect"><a href="">How it Works</a></li>
            <li class="nav_item hover_effect"><a href="">About Us</a></li>
