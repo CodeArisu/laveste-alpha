@@ -24,7 +24,10 @@
             </ul>
 
             <div class='product_list'>
-
+                <x-material.product-card />
+                <x-material.product-card />
+                <x-material.product-card />
+                <x-material.product-card />
             </div>
             
         </div>

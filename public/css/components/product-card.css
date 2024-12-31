@@ -1,0 +1,37 @@
+.card_container {
+    padding: 0;
+    background-color: white;
+    /* max-width: 400px; */
+
+    border-radius: 2em 2em 1em 1em;
+
+    box-shadow: 0 5px 5px rgba(0 0 0 / .2);
+    text-decoration: none;
+    color: var(--txt-secondary);
+}
+.card_container .card_contents {
+    padding: 0;
+}
+
+.card_container .card_contents .img_container {
+    padding: 0;
+
+    & img {
+        border-radius: 2em;
+        width: 100%;
+    }
+}
+.card_container .card_contents .card_text {
+    padding-inline: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+
+    & h3, p {
+        margin: 0;
+    }
+
+    & .price_tag {
+        text-align: right;
+    }
+}

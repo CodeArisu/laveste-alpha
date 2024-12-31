@@ -1,0 +1,58 @@
+.show_product_container {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+/* 
+    This binds the image and item data
+    into single row (top row)
+ */
+.show_product_container .show_product_info {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: minmax(100px, 600px);
+    column-gap: 1em;
+}
+
+/* 
+    The image containment as well as 
+    alignment of the image on the 
+    center
+*/
+.show_product_container .show_product_info .img_content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+    & img {
+        max-width: 650px;
+        height: 100%;
+
+        border-radius: 1.75em;
+    }
+}
+
+.show_product_container 
+.show_product_info 
+.content {
+    max-width: 900px;
+    padding: 0;
+}
+
+.show_product_container 
+.show_product_info 
+.content 
+.text_content
+{
+
+
+    & div {
+        padding: 0;
+    }
+}
