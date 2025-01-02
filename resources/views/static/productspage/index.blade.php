@@ -17,17 +17,17 @@
         <div class="product_selection_container">
 
             <ul>
-                <li><x-header-component text='Gown' textColor='secondary' /></li>
-                <li><x-header-component text='Filipiniana' textColor='secondary' /></li>
-                <li><x-header-component text='Tuxedo' textColor='secondary' /></li>
-                <li><x-header-component text='Barong' textColor='secondary' /></li>
+                <li><x-heading text='Gown' textColor='secondary' /></li>
+                <li><x-heading text='Filipiniana' textColor='secondary' /></li>
+                <li><x-heading text='Tuxedo' textColor='secondary' /></li>
+                <li><x-heading text='Barong' textColor='secondary' /></li>
             </ul>
 
             <div class='product_list'>
-                <x-material.product-card />
-                <x-material.product-card />
-                <x-material.product-card />
-                <x-material.product-card />
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
+                <x-product-card />
             </div>
             
         </div>

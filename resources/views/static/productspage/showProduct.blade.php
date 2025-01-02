@@ -5,7 +5,7 @@
 <x-layout>
     {{-- asset components --}}
     @include('components.navbar')
-    <x-back-button-component />
+    <x-back-button />
 
     <div class="show_product_container">
         <div class='show_product_info'>
@@ -18,7 +18,7 @@
             {{-- item data contained on the right --}}
             <div class="content">
                 <div class="text_content">
-                    <x-header-component 
+                    <x-heading 
                         text='Lorem ipsum dolor sit.' 
                         textColor='secondary' 
                     />

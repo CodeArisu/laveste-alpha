@@ -1,14 +1,13 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\material;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class categoryCard extends Component
+class categoryCardComponent extends Component
 {
-    
     public $text;
     public $url;
     public $image;
@@ -25,6 +24,6 @@ class categoryCard extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.category-card');
+        return view('components.material.category-card-component');
     }
 }
