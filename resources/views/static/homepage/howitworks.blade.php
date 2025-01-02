@@ -3,7 +3,7 @@
 @endpush
 
 <div class='howitworks'>
-    <x-header-component text='How It Works' textColor='secondary'/>
+    <x-heading text='How It Works' textColor='secondary'/>
     
     <div class="list_container">
         <div class="icon_content">

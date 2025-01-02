@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\material;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class headerComponent extends Component
+class headingComponent extends Component
 {
     public $text;
     public String $textColor;
@@ -22,6 +22,6 @@ class headerComponent extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.header-component');
+        return view('components.material.heading-component');
     }
 }

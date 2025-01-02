@@ -12,7 +12,7 @@
                 <p class="subheader">Explore our seamless process, book an appointment for a fitting, and choose between
                     door-to-door delivery or shop pick-up. Style has never been this accessible—start your journey today!
                 </p>
-                <x-button-component btnType='primary' btnTitle='Start Now' class='btn-xsm'/>
+                <x-button btnType='primary' btnTitle='Start Now' class='btn-xsm'/>
             </div>
             
             <div class='test'>
