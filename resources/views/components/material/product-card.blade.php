@@ -3,7 +3,7 @@
 @endpush
 
 <a href='{{ route('products.show') }}' class='card_container'>
-    <div class="card_contents">
+    <div class="card_contents card_shadow">
         <div class='img_container'>
             <img src="https://picsum.photos/200/300?grayscale" alt="">
         </div>

@@ -1,7 +1,7 @@
 <div class='footer_container'>
    <img src="https://www.coremedia.com/resource/image/87252/landscape_ratio16x9/944/531/8efd1c9b06a96fd784fd33892a042343/A8CFD2FB36A5D8B8A4C39103836F086C/consumer-shopping-trends-inspired-by-the-pandemic-picture.png" alt="">
    <div class='footer_content'>
-      <x-header-component text='La Veste Rentals' textColor='secondary' class='text-xl'/>
+      <x-heading text='La Veste Rentals' textColor='secondary' class='text-xl'/>
       
       <ul>
          <li>Home</li>

@@ -17,20 +17,28 @@
         <div class="product_selection_container">
 
             <ul>
-                <li><x-heading text='Gown' textColor='secondary' /></li>
-                <li><x-heading text='Filipiniana' textColor='secondary' /></li>
-                <li><x-heading text='Tuxedo' textColor='secondary' /></li>
-                <li><x-heading text='Barong' textColor='secondary' /></li>
+                <li>
+                    <x-heading text='Gown' textColor='secondary'/>
+                </li>
+                <li>
+                    <x-heading text='Filipiniana' textColor='secondary'/>
+                </li>
+                <li>
+                    <x-heading text='Tuxedo' textColor='secondary'/>
+                </li>
+                <li>
+                    <x-heading text='Barong' textColor='secondary'/>
+                </li>
             </ul>
 
             <div class='product_list'>
                 <x-product-card />
-                <x-product-card />
-                <x-product-card />
-                <x-product-card />
+               
             </div>
             
         </div>
     </div>
+
+    @include('components.footer')
     
 </x-layout>

@@ -32,6 +32,7 @@ class ComponentServiceProvider extends ServiceProvider
                 as part of the blade compiler
             */
             foreach (self::COMPONENTS as $alias => $class) {
+                // checks if the class exists
                 if(class_exists($class)) {
                     Blade::component($class, $alias);
                 } else {
@@ -47,7 +48,7 @@ class ComponentServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {  
-        // finds the path to the components
+        // finds the path to the components and loads them
        $this->loadViewsFrom(realpath(self::VIEW_PATH), 'material');
         // loads the components after the path has been staged
        $this->configureComponents();
