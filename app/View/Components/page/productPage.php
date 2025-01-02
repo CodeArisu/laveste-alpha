@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components;
+namespace App\View\Components\page;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class adminNavbar extends Component
+class productPage extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class adminNavbar extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.admin-navbar');
+        return view('components.page.product-page');
     }
 }

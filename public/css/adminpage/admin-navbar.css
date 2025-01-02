@@ -36,6 +36,8 @@
     justify-content: center; /* Center content horizontally */
     align-items: center; /* Center content vertically */
     border-radius: 15px;
+
+    transition: all 0.16s;
 }
 .nav_contents li > a > i{
     text-align: center;
