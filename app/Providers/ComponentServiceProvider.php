@@ -19,6 +19,9 @@ class ComponentServiceProvider extends ServiceProvider
         'category-card' => \App\View\Components\material\categoryCardComponent::class,
         'product-card' => \App\View\Components\material\productCard::class,
         'stat-card' => \App\View\Components\material\statCard::class,
+        'textfield' => \App\View\Components\material\textfieldComponent::class,
+        'radio-btn' => \App\View\Components\material\radioButton::class,
+        'form' => \App\View\Components\material\formComponent::class,
     ];
 
     /**

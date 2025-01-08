@@ -1,12 +1,12 @@
 <?php
 
-namespace App\View\Components\page;
+namespace App\View\Components\material;
 
 use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class productPage extends Component
+class formComponent extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class productPage extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.page.product-page');
+        return view('components.material.form-component');
     }
 }

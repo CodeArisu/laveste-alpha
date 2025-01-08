@@ -2,14 +2,23 @@
     <link rel="stylesheet" href="{{ asset('css/components/product-card.css') }}">
 @endpush
 
-<a href='{{ route('products.show') }}' class='card_container'>
+@props([
+    'product' => [
+        'name' => 'Default Product Name',
+        'price' => 0.00,
+        'image' => 'https://picsum.photos/200/300?grayscale'
+    ], 
+    'url' => route('products.show')
+])
+
+<a href='{{ $url }}' class='card_container'>
     <div class="card_contents card_shadow">
         <div class='img_container'>
-            <img src="https://picsum.photos/200/300?grayscale" alt="">
+            <img src={{ $product['image'] }} alt="">
         </div>
         <div class='card_text'>
-            <h3>Product Name</h3>
-            <p class='price_tag'>Price: $0.00</p>
+            <h3>{{ $product['name'] }}</h3>
+            <p class='price_tag'>Price: {{ $product['price'] }}</p>
         </div>
     </div>
 </a>

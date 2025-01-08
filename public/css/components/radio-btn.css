@@ -1,0 +1,41 @@
+.radio_btn_base {
+    border: var(--clr-secondary) 2px solid;
+    padding: 30px;
+    border-radius: 30px;
+    width: 100%;
+
+    display: flex; /* Aligns items in a row */
+    align-items: center; /* Vertically centers the label and radio button */
+    justify-content: center;
+    gap: 8px; /* Adds space between the radio button and label */
+
+    & input[type="radio"] {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: var(--clr-secondary) 2px solid;
+        background-color: wheat;
+        cursor: pointer;
+    }
+
+    & input[type="radio"]:checked {
+        background-color: var(--clr-secondary); /* Checked state background color */
+    }
+
+    & .radio_btn {
+        accent-color: var(--clr-secondary);
+        font-size: var(--txt-md);
+    }
+
+    & .radio_btn + label {
+        cursor: pointer; /* Makes the label clickable */
+    }
+
+    & label {
+        font-size: var(--txt-xsm);
+        font-weight: 500;
+    }
+}
