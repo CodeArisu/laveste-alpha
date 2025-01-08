@@ -12,9 +12,14 @@
     </style>
 @endpush
 
+@props([
+    'route' => url()->previous(),
+    'text' => 'Back'
+])
+
 <div class='back_content'>
-    <a class='back_btn' href="{{ url()->previous() }}">
+    <a class='back_btn' href="{{ $route }}">
         <i class="fa-solid fa-arrow-left-long"></i>
-        Back 
+        {{ $text }} 
     </a>
 </div>

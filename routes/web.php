@@ -13,6 +13,7 @@ Route::get('/homepage', function() {
 // route to the products page
 Route::get('/products', [App\Http\Controllers\ProductController::class, 'index'])->name('products.index');
 Route::get('/products/id', [App\Http\Controllers\ProductController::class, 'show'])->name('products.show');
+Route::get('/products/rent', [App\Http\Controllers\ProductController::class, 'create'])->name('products.create');
 
 // route to the admins page (no use for now)
 Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('admin.index');

@@ -10,7 +10,11 @@
     gap: 8px; /* Adds space between the radio button and label */
 
     & input[type="radio"] {
+<<<<<<< HEAD
         appearance: none; /* Removes the default radio button */
+=======
+        appearance: none;
+>>>>>>> 398886b5d38d15cb8aa9036105a23c92738841c1
         -webkit-appearance: none;
         -moz-appearance: none;
         width: 20px;

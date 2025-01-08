@@ -52,9 +52,12 @@
 .content 
 .text_content
 {
-
-
     & div {
         padding: 0;
     }
+}
+
+.btn_container {
+    display: grid;
+    justify-content: end;
 }
