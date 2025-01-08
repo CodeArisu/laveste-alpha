@@ -14,7 +14,7 @@
                 convenient date and time, share a few details about your preferences and measurements, and we’ll have
                 everything ready for your visit
             </p>
-            <x-button btnType='secondary' btnTitle='Book Now!' class='btn-xsm'/>
+            <x-button btnType='secondary' btnTitle='Book Now!' class='btn-sm'/>
         </div>
     </div>
 
