@@ -4,17 +4,13 @@
     border-radius: 30px;
     width: 100%;
 
-    display: flex; /* Aligns items in a row */
-    align-items: center; /* Vertically centers the label and radio button */
+    display: flex; 
+    align-items: center;
     justify-content: center;
-    gap: 8px; /* Adds space between the radio button and label */
+    gap: 8px;
 
     & input[type="radio"] {
-<<<<<<< HEAD
-        appearance: none; /* Removes the default radio button */
-=======
         appearance: none;
->>>>>>> 398886b5d38d15cb8aa9036105a23c92738841c1
         -webkit-appearance: none;
         -moz-appearance: none;
         width: 20px;
@@ -26,7 +22,7 @@
     }
 
     & input[type="radio"]:checked {
-        background-color: var(--clr-secondary); /* Checked state background color */
+        background-color: var(--clr-secondary);
     }
 
     & .radio_btn {
@@ -35,7 +31,7 @@
     }
 
     & .radio_btn + label {
-        cursor: pointer; /* Makes the label clickable */
+        cursor: pointer;
     }
 
     & label {

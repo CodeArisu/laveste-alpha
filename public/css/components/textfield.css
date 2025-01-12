@@ -1,32 +1,45 @@
-.field_label {
-    padding-inline: 10px;
-}
 .field {
-   width: 100%;
-
    padding: 0;
-
-   border: var(--clr-secondary) 2px solid;
-   border-radius: .75em;
+   position: relative;
+   height: 90px;
+   line-height: 20px;
 }
 
 .textfield {
-    border: none;
-    background-color: transparent;
-    font-size: var(--txt-xsm);
+    position: absolute;
     color: var(--clr-secondary);
-
-    padding: 10px 10px;
-    border-radius: .75em;
-
     width: 100%;
-    height: 100%;
-
-    transition: all .16s ease;
+    outline: none;
+    line-height: 50px;
+    padding: 0 .80em;
+    font-size: var(--txt-xsm);
+    background: transparent;
+    border: var(--clr-secondary) 3px solid;
+    border-radius: .75em;
+    transition: all 0.16s ease;
+    z-index: 888;
 }
-.textfield::placeholder {
+
+.field_label {
+    position: absolute;
+    top: -20px;
+    font-size: var(--txt-xsm);
+    padding: 2px .25em;
+    margin: 0 .70em;
+    background-color: var(--clr-primary);
+    transition: all 0.16s ease;
+    pointer-events: none; 
+    z-index: 889; 
+}
+
+.textfield:focus
+{
+    border: var(--clr-secondary) 4px solid;
     color: var(--clr-secondary);
 }
-.textfield:focus {
-    outline: var(--clr-secondary) 5px solid;
-}
+
+
+
+
+
+
