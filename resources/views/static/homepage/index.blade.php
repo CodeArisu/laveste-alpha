@@ -12,7 +12,7 @@
         @include('static.homepage.hero')
     </section>
 
-    <section class='category_section'>
+    {{-- <section class='category_section'>
         @include('static.homepage.category')
     </section>
 
@@ -22,11 +22,11 @@
 
     <section class='howitworks_section'>
         @include('static.homepage.howitworks')
-    </section>
+    </section> --}}
     
-    <section class="aboutus_section">
+    {{-- <section class="aboutus_section">
         @include('static.homepage.aboutus')
-    </section>
+    </section> --}}
 
     <footer>
         @include('components.footer')
