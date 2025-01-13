@@ -21,9 +21,19 @@
     .hero_container .header_container .text-content {
         row-gap: 3em;
 
+        & .header {
+            font-size: clamp(5vw, var(--txt-xl), 20vw);
+        }
+
         & .subheader {
             display: none;
         }
+    }
+
+    /* appointment */
+
+    .img_content {
+        display: none;
     }
 
 }
@@ -71,7 +81,6 @@
             text-align: center;
         }
     }
-
 
 }
 

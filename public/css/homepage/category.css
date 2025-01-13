@@ -1,5 +1,10 @@
+.category {
+   padding-inline: 20px;
+}
 .category .category_content {
    display: grid;
-   grid-template-columns: repeat(4, 1fr);
-   gap: 6em;
+   grid-template-columns: repeat(auto-fit, minmax(350px, 200px));
+   gap: 5em;
+   justify-content: center;
+   align-items: center;
 }

@@ -1,3 +1,6 @@
+.hero {
+    padding-inline: 20px;
+}
 .hero_container {
     position: relative;
 
@@ -50,7 +53,7 @@
 
     & .header {
         color: var(--clr-primary);
-        font-size: var(--txt-xl);
+        font-size: clamp(6vw, var(--txt-xsm), var(--txt-md));
         line-height: 1em;
         font-family: var(--font-primary);
         margin-bottom: 10px;
@@ -62,7 +65,7 @@
     & .subheader {
         color: var(--clr-primary);
         text-wrap: wrap;
-        font-size: var(--txt-xsm);
+        font-size: clamp(1vw, var(--txt-xsm), var(--txt-md));
         font-weight: 300;
     }
 }
