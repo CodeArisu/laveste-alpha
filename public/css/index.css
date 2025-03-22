@@ -8,6 +8,7 @@ html, body {
     color: var(--txt-clr-secondary);
 
     margin: 0;
+    padding: 0;
 }
 body::-webkit-scrollbar {
     width: 10px;

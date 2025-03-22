@@ -8,7 +8,8 @@
     'type' => 'text',
 ])
 
-<label for="{{ $label }}" class="field_label" >{{ $label }}</label>
+
 <div class="field">
-        <input type="{{ $type }}" name="{{ $label }}" placeholder="{{ $placeholder }}" id="{{ $label }}" class='textfield' />
+        <label class="field_label" >{{ $label }}</label>
+        <input type="{{ $type }}" name="{{ $label }}" id="{{ $label }}" class='textfield' />
 </div>

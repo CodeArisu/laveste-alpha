@@ -20,13 +20,13 @@
         @include('static.homepage.appointment')
     </section>
 
-    <section class='howitworks_section'>
+    {{-- <section class='howitworks_section'>
         @include('static.homepage.howitworks')
     </section>
     
     <section class="aboutus_section">
         @include('static.homepage.aboutus')
-    </section>
+    </section> --}}
 
     <footer>
         @include('components.footer')

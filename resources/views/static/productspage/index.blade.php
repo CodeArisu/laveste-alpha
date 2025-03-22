@@ -35,7 +35,7 @@
                 
                 {{-- Example Product Card Template --}}
                 <x-product-card 
-                    :product=" [
+                    :product="[
                         'name' => 'Gown 1',
                         'price' => 1000.00,
                         'image' => 'https://picsum.photos/200/300?grayscale'
