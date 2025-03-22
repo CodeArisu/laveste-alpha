@@ -40,6 +40,15 @@
                         </span>
                     </div>
                 </div>
+                <div class='btn_container'>
+                    <x-button 
+                        btnTitle='Rent' 
+                        btnType='secondary'
+                        class="btn-xsm"
+                        :url='route("products.create")'
+
+                    />
+                </div>
             </div>
         </div>
 

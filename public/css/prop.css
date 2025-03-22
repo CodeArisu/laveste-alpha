@@ -22,7 +22,7 @@
 }  
 
 .btn-xsm {
-    max-width: 7em;
+    padding-inline: 300px;
 }
 .btn-sm {
     max-width: 10em;
@@ -33,3 +33,4 @@
 .btn-lg {
     max-width: 20em;
 }
+
